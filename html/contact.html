@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta="keywords" content="curriculum vitea, CV">
+        <link rel="stylesheet" type="text/css" href="../css/stylesheet.css">
+        <title>Index</title>
+    </head>
+    <body>
+        <div class="container1"><!-- container van 8.33% aan beide kanten van de pagina -->
+
+        <header><!-- sticky header met 2 nagigatie buttons -->
+            <div class="col-12">
+                <h1>Contact</h1>
+                <nav>
+                    <ul>
+                        <li><a href="../index.html">Over mij</a></li>
+                        <li><a href="mijncv.html">Mijn cv</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <div class="container1"><!-- *een 2de* container van 8.33% aan beide kanten van de pagina -->
+            <h2>Contact formulier</h2>
+            <p>Wilt u contact opnemen? vul uw gegevens in:<br>
+                Benoem in uw bericht waarom u contact wil opnemen.<br>
+            U hoort z.s.m. van mij terug!</p>
+            <form class="col-7" action="/submit" method="post">
+                <div class="form-group">
+                    <label for="name">Naam:</label>
+                    <input type="text" id="name" name="name" required><br>
+                </div>
+                <div class="form-group">
+                    <label for="surname">Achternaam:</label>
+                    <input type="text" id="surname" name="surname" required><br>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" required><br>
+                </div>
+                <div class="form-group">
+                    <label for="message">Bericht:</label><br>
+                    <textarea id="message" name="message" rows="4" cols="50" required></textarea><br>
+                </div>
+                <input type="submit" id="SubmitButton" value="Verstuur">
+            </form>
+        </div>
+        </div>
+        <footer class="col-2"><!-- copyright vermelding --> 
+            <p>copyright 2023 Rachid Lasfaghi</p>
+        </footer>
+    </body>
+</html>
